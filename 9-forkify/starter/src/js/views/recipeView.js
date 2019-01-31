@@ -114,7 +114,7 @@ export const renderRecipe = (recipe, isLiked) => {
     elements.recipe.insertAdjacentHTML('afterbegin', markup);
 };
 
-/*
+
 export const updateServingsIngredients = recipe => {
     // Update servings
     document.querySelector('.recipe__info-data--people').textContent = recipe.servings;
@@ -125,4 +125,3 @@ export const updateServingsIngredients = recipe => {
         el.textContent = formatCount(recipe.ingredients[i].count);
     });
 };
-*/
